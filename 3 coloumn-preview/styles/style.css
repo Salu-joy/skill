@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+img {
+  height: auto;
+  object-fit: contain;
+}
+button {
+  display: inline-block;
+  border-radius: 18px white;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+main-container {
+  flex-direction: column;
+}
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.img1 {
+}
+.heading1 {
+  color: hsl(0, 0%, 95%);
+}
+.btn1 {
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.img2 {
+}
+.heading2 {
+  color: hsl(0, 0%, 95%);
+}
+.btn2 {
+}
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.img3 {
+}
+.heading3 {
+  color: hsl(0, 0%, 95%);
+}
+.btn3 {
+}
+.images {
+  size: 1rem;
+}
