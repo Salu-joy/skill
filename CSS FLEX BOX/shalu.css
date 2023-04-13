@@ -1,0 +1,31 @@
+* {
+  margin-right: 120%;
+  padding: 0%;
+}
+.border {
+  margin: 100 auto;
+  width: 100rem;
+  border: 1px salmon solid;
+  border-radius: 12px;
+  background-color: orange;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 20%;
+  border: solid green;
+  border-radius: 20px;
+  object-fit: contain;
+}
+.img1 {
+  display: flex;
+  align-items: center;
+  order: 3;
+}
+.img2 {
+  display: flex;
+  align-items: center;
+  order: 5;
+}
