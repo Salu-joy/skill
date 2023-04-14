@@ -15,21 +15,55 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  border: 2px solid blue;
-  border-radius: 4rem;
   align-items: center;
-  justify-content: space-around;
-  margin: 3rem auto;
-  height: 15rem;
-  width: 55rem;
-  gap: 1rem;
+  justify-content: center;
+  gap: 15rem;
+  padding: 1rem;
+  margin: 8rem 2rem;
 }
 
-@media screen and (max-width: 450px) {
+.boxleft {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  height: 45rem;
+  padding: 12rem;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.boxright {
+  display: flex;
+
+  border: 2px solid blue;
+  height: 45rem;
+  padding: 12rem;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+@media screen and (max-width: 425px) {
   .container {
-    font-size: 18px;
-    height: 220px;
-    width: 250px;
     flex-direction: column;
+    gap: 2rem;
+    margin-right: 5rem;
+  }
+  .boxleft {
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0rem;
+  }
+  .boxright {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
   }
 }
