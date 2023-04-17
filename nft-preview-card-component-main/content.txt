@@ -6,3 +6,10 @@
   3 days left
   
   Creation of Jules Wyvern
+.details-left-img {
+  position: absolute;
+  justify-self: auto;
+}
+.details-right-img {
+  position: relative;
+  white-space: pre-wrap;

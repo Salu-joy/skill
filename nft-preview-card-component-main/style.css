@@ -20,100 +20,45 @@ body {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   width: 100;
-  background-color: var(--clr-White);
+
   padding: 1rem;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  padding: 1rem;
-}
-body {
-  font-family: "Outfit", sans-serif;
-  background-color: var(--clr-blue-card);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 45%;
 }
 .card {
-  background-color: var(--clr-White);
-  width: 18.5rem;
-  height: auto;
-  border-radius: var(--radius);
-  box-shadow: 12px 12px 18px black;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.card-img {
-  border-radius: var(--radius);
-  flex-direction: row;
-}
-.lines {
-  padding: 1rem;
+  background-color: hsl(216, 50%, 16%);
 }
 
-.card-title {
-  color: var(--clr-White);
-  font-size: 1.3rem;
-  font-weight: 600;
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
 }
-.card-description {
-  font-size: 1rem;
-  color: var(--clr-Soft-blue);
-  opacity: 0.6;
+h1 {
+  color: var(--clr-White);
+  font-weight: lighter;
+}
+.description {
+  color: hsl(215, 51%, 70%);
 }
 .card-details-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-}
-
-.details-left-img {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-.details-right-img {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-.details-right-text {
-  color: var(--clr-Soft-blue);
-}
-.details-left-text {
-  color: var(--clr-Cyan);
-}
-
-.card-left-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-}
-.details-left-container {
-  color: var(--clr-Cyan);
-  font-weight: 600;
-}
-.card-divider {
-  border: 1px var(--clr-Soft-blue);
+  padding: 1rem;
+  color: var(--clr-White);
 }
 .card-avatar-container {
   display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  height: 3rem;
-  width: 1rem;
+  color: var(--clr-White);
 }
-
-.avatar-img-container {
-  align-items: center;
-  gap: 1rem;
-  border: 2px solid var(--clr-White);
-  border-radius: 50%;
-}
-.avatar-text {
+.card-img-container {
+  width: 150px;
+  object-fit: contain;
+  padding: 1rem;
 }
